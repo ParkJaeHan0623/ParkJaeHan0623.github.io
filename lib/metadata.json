@@ -1,45 +1,46 @@
 {
   "vaultName": "Home",
-  "lastExport": 1736785821120,
+  "lastExport": 1736790066092,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "Attached Files/스크린샷 2025-01-02 오전 3.27.39.png",
-    "Attached Files/스크린샷 2025-01-02 오전 3.34.53 2.png",
-    "Attached Files/스크린샷 2025-01-02 오전 3.34.53 오전 3.45.47.png",
-    "Attached Files/스크린샷 2025-01-02 오전 3.51.07.png",
-    "Attached Files/스크린샷 2025-01-06 오후 7.13.13.png",
-    "Attached Files/스크린샷 2025-01-09 오전 10.05.19.png",
-    "Attached Files/스크린샷 2025-01-09 오전 10.05.48.png",
-    "Attached Files/Pasted image 20250107150239.png",
-    "Attached Files/Pasted image 20250107150341.png",
-    "Attached Files/Pasted image 20250107150437.png",
-    "Attached Files/Pasted image 20250107150631.png",
-    "Attached Files/Pasted image 20250107151219.png",
     "Coding/개발 환경 구축.md",
+    "Coding/단축키.md",
+    "Coding/단축키(표).md",
+    "Coding/리눅스(Linux).md",
+    "Coding/마크다운(MarkDown).md",
+    "Coding/명령어.md",
+    "Coding/비즈니스 메일 작성법.md",
+    "Coding/옵시디언(Obsidian).md",
     "Coding/추가로 공부해야할것.md",
-    "단축키(표).md",
-    "리눅스(Linux).md",
-    "마크다운(MarkDown).md",
-    "명령어.md",
-    "비즈니스 메일 작성법.md",
-    "옵시디언(Obsidian).md",
-    "CSS.md",
-    "Git.md",
-    "Gradle.md",
-    "Home.md",
-    "HTML.md",
-    "JAVA.md",
-    "JavaScript.md",
-    "macOS.md",
-    "Maven.md",
-    "Microsoft Windows.md",
-    "MySQL.md",
-    "Node.js.md",
-    "Spring Boot.md",
-    "VSCode.md",
+    "Coding/CSS.md",
+    "Coding/Git.md",
+    "Coding/Gradle.md",
+    "Coding/HTML.md",
+    "Coding/JAVA.md",
+    "Coding/JavaScript.md",
+    "Coding/macOS.md",
+    "Coding/Maven.md",
+    "Coding/Microsoft Windows.md",
+    "Coding/MySQL.md",
+    "Coding/Node.js.md",
+    "Coding/Spring Boot.md",
+    "Coding/VSCode.md",
+    "Index.md",
+    "lib/media/스크린샷-2025-01-02-오전-3.27.39.png",
+    "lib/media/스크린샷-2025-01-02-오전-3.34.53-2.png",
+    "lib/media/스크린샷-2025-01-02-오전-3.51.07.png",
+    "lib/media/스크린샷-2025-01-02-오전-3.34.53-오전-3.45.47.png",
+    "lib/media/스크린샷-2025-01-06-오후-7.13.13.png",
+    "lib/media/pasted-image-20250107150631.png",
+    "lib/media/pasted-image-20250107150239.png",
+    "lib/media/pasted-image-20250107150341.png",
+    "lib/media/pasted-image-20250107150437.png",
+    "lib/media/pasted-image-20250107151219.png",
+    "lib/media/스크린샷-2025-01-09-오전-10.05.19.png",
+    "lib/media/스크린샷-2025-01-09-오전-10.05.48.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -68,19 +69,7 @@
     "lib/styles/obsidian.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css",
-    "lib/styles/snippets.css",
-    "lib/media/스크린샷-2025-01-02-오전-3.27.39.png",
-    "lib/media/스크린샷-2025-01-02-오전-3.34.53-2.png",
-    "lib/media/스크린샷-2025-01-02-오전-3.51.07.png",
-    "lib/media/스크린샷-2025-01-02-오전-3.34.53-오전-3.45.47.png",
-    "lib/media/스크린샷-2025-01-06-오후-7.13.13.png",
-    "lib/media/pasted-image-20250107150631.png",
-    "lib/media/pasted-image-20250107150239.png",
-    "lib/media/pasted-image-20250107150341.png",
-    "lib/media/pasted-image-20250107150437.png",
-    "lib/media/pasted-image-20250107151219.png",
-    "lib/media/스크린샷-2025-01-09-오전-10.05.19.png",
-    "lib/media/스크린샷-2025-01-09-오전-10.05.48.png"
+    "lib/styles/snippets.css"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -115,7 +104,7 @@
   ],
   "fileInfo": {
     "Coding/개발 환경 구축.md": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 12144,
       "exportedPath": "coding/개발-환경-구축.html",
       "dependencies": [
@@ -133,446 +122,380 @@
         "lib/media/스크린샷-2025-01-09-오전-10.05.48.png"
       ]
     },
+    "Coding/단축키.md": {
+      "modifiedTime": 1736790066092,
+      "sourceSize": 21925,
+      "exportedPath": "coding/단축키.html",
+      "dependencies": []
+    },
+    "Coding/단축키(표).md": {
+      "modifiedTime": 1736790066092,
+      "sourceSize": 6369,
+      "exportedPath": "coding/단축키(표).html",
+      "dependencies": []
+    },
+    "Coding/리눅스(Linux).md": {
+      "modifiedTime": 1736790066092,
+      "sourceSize": 36,
+      "exportedPath": "coding/리눅스(linux).html",
+      "dependencies": []
+    },
+    "Coding/마크다운(MarkDown).md": {
+      "modifiedTime": 1736790066092,
+      "sourceSize": 3844,
+      "exportedPath": "coding/마크다운(markdown).html",
+      "dependencies": []
+    },
+    "Coding/명령어.md": {
+      "modifiedTime": 1736790066092,
+      "sourceSize": 5015,
+      "exportedPath": "coding/명령어.html",
+      "dependencies": []
+    },
+    "Coding/비즈니스 메일 작성법.md": {
+      "modifiedTime": 1736790066092,
+      "sourceSize": 174,
+      "exportedPath": "coding/비즈니스-메일-작성법.html",
+      "dependencies": []
+    },
+    "Coding/옵시디언(Obsidian).md": {
+      "modifiedTime": 1736790066092,
+      "sourceSize": 908,
+      "exportedPath": "coding/옵시디언(obsidian).html",
+      "dependencies": []
+    },
     "Coding/추가로 공부해야할것.md": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 565,
       "exportedPath": "coding/추가로-공부해야할것.html",
       "dependencies": []
     },
-    "단축키(표).md": {
-      "modifiedTime": 1736497000717,
-      "sourceSize": 6369,
-      "exportedPath": "단축키(표).html",
-      "dependencies": []
-    },
-    "리눅스(Linux).md": {
-      "modifiedTime": 1736497000717,
-      "sourceSize": 36,
-      "exportedPath": "리눅스(linux).html",
-      "dependencies": []
-    },
-    "마크다운(MarkDown).md": {
-      "modifiedTime": 1736497000717,
-      "sourceSize": 3844,
-      "exportedPath": "마크다운(markdown).html",
-      "dependencies": []
-    },
-    "명령어.md": {
-      "modifiedTime": 1736497000717,
-      "sourceSize": 5015,
-      "exportedPath": "명령어.html",
-      "dependencies": []
-    },
-    "비즈니스 메일 작성법.md": {
-      "modifiedTime": 1736497000717,
-      "sourceSize": 174,
-      "exportedPath": "비즈니스-메일-작성법.html",
-      "dependencies": []
-    },
-    "옵시디언(Obsidian).md": {
-      "modifiedTime": 1736497000717,
-      "sourceSize": 908,
-      "exportedPath": "옵시디언(obsidian).html",
-      "dependencies": []
-    },
-    "CSS.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/CSS.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 0,
-      "exportedPath": "css.html",
+      "exportedPath": "coding/css.html",
       "dependencies": []
     },
-    "Git.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/Git.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 87,
-      "exportedPath": "git.html",
+      "exportedPath": "coding/git.html",
       "dependencies": []
     },
-    "Gradle.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/Gradle.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 0,
-      "exportedPath": "gradle.html",
+      "exportedPath": "coding/gradle.html",
       "dependencies": []
     },
-    "HTML.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/HTML.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 0,
-      "exportedPath": "html.html",
+      "exportedPath": "coding/html.html",
       "dependencies": []
     },
-    "JAVA.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/JAVA.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 0,
-      "exportedPath": "java.html",
+      "exportedPath": "coding/java.html",
       "dependencies": []
     },
-    "JavaScript.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/JavaScript.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 0,
-      "exportedPath": "javascript.html",
+      "exportedPath": "coding/javascript.html",
       "dependencies": []
     },
-    "macOS.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/macOS.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 540,
-      "exportedPath": "macos.html",
+      "exportedPath": "coding/macos.html",
       "dependencies": []
     },
-    "Maven.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/Maven.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 0,
-      "exportedPath": "maven.html",
+      "exportedPath": "coding/maven.html",
       "dependencies": []
     },
-    "Microsoft Windows.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/Microsoft Windows.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 87,
-      "exportedPath": "microsoft-windows.html",
+      "exportedPath": "coding/microsoft-windows.html",
       "dependencies": []
     },
-    "MySQL.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/MySQL.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 539,
-      "exportedPath": "mysql.html",
+      "exportedPath": "coding/mysql.html",
       "dependencies": []
     },
-    "Node.js.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/Node.js.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 12,
-      "exportedPath": "node.js.html",
+      "exportedPath": "coding/node.js.html",
       "dependencies": []
     },
-    "Spring Boot.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/Spring Boot.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 0,
-      "exportedPath": "spring-boot.html",
+      "exportedPath": "coding/spring-boot.html",
       "dependencies": []
     },
-    "VSCode.md": {
-      "modifiedTime": 1736497000717,
+    "Coding/VSCode.md": {
+      "modifiedTime": 1736790066092,
       "sourceSize": 4015,
-      "exportedPath": "vscode.html",
+      "exportedPath": "coding/vscode.html",
+      "dependencies": []
+    },
+    "Index.md": {
+      "modifiedTime": 1736790066092,
+      "sourceSize": 325,
+      "exportedPath": "index.html",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-02-오전-3.27.39.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 46356,
       "exportedPath": "lib/media/스크린샷-2025-01-02-오전-3.27.39.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-02-오전-3.34.53-2.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 23754,
       "exportedPath": "lib/media/스크린샷-2025-01-02-오전-3.34.53-2.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-02-오전-3.51.07.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 23243,
       "exportedPath": "lib/media/스크린샷-2025-01-02-오전-3.51.07.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-02-오전-3.34.53-오전-3.45.47.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 23754,
       "exportedPath": "lib/media/스크린샷-2025-01-02-오전-3.34.53-오전-3.45.47.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-06-오후-7.13.13.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 35120,
       "exportedPath": "lib/media/스크린샷-2025-01-06-오후-7.13.13.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250107150631.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 146039,
       "exportedPath": "lib/media/pasted-image-20250107150631.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250107150239.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 137405,
       "exportedPath": "lib/media/pasted-image-20250107150239.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250107150341.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 149837,
       "exportedPath": "lib/media/pasted-image-20250107150341.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250107150437.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 176238,
       "exportedPath": "lib/media/pasted-image-20250107150437.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250107151219.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 169205,
       "exportedPath": "lib/media/pasted-image-20250107151219.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-09-오전-10.05.19.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 14521,
       "exportedPath": "lib/media/스크린샷-2025-01-09-오전-10.05.19.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-09-오전-10.05.48.png": {
-      "modifiedTime": 1736497000717,
+      "modifiedTime": 1736790066092,
       "sourceSize": 135373,
       "exportedPath": "lib/media/스크린샷-2025-01-09-오전-10.05.48.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 13458,
+      "modifiedTime": 1736790066092,
+      "sourceSize": 8500,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 1330,
+      "modifiedTime": 1736790066092,
+      "sourceSize": 1551,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 131021,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
-    "Attached Files/스크린샷 2025-01-02 오전 3.27.39.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 46356,
-      "exportedPath": "attached-files/스크린샷-2025-01-02-오전-3.27.39.png",
-      "dependencies": []
-    },
-    "Attached Files/스크린샷 2025-01-02 오전 3.34.53 2.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 23754,
-      "exportedPath": "attached-files/스크린샷-2025-01-02-오전-3.34.53-2.png",
-      "dependencies": []
-    },
-    "Attached Files/스크린샷 2025-01-02 오전 3.34.53 오전 3.45.47.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 23754,
-      "exportedPath": "attached-files/스크린샷-2025-01-02-오전-3.34.53-오전-3.45.47.png",
-      "dependencies": []
-    },
-    "Attached Files/스크린샷 2025-01-02 오전 3.51.07.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 23243,
-      "exportedPath": "attached-files/스크린샷-2025-01-02-오전-3.51.07.png",
-      "dependencies": []
-    },
-    "Attached Files/스크린샷 2025-01-06 오후 7.13.13.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 35120,
-      "exportedPath": "attached-files/스크린샷-2025-01-06-오후-7.13.13.png",
-      "dependencies": []
-    },
-    "Attached Files/스크린샷 2025-01-09 오전 10.05.19.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 14521,
-      "exportedPath": "attached-files/스크린샷-2025-01-09-오전-10.05.19.png",
-      "dependencies": []
-    },
-    "Attached Files/스크린샷 2025-01-09 오전 10.05.48.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 135373,
-      "exportedPath": "attached-files/스크린샷-2025-01-09-오전-10.05.48.png",
-      "dependencies": []
-    },
-    "Attached Files/Pasted image 20250107150239.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 137405,
-      "exportedPath": "attached-files/pasted-image-20250107150239.png",
-      "dependencies": []
-    },
-    "Attached Files/Pasted image 20250107150341.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 149837,
-      "exportedPath": "attached-files/pasted-image-20250107150341.png",
-      "dependencies": []
-    },
-    "Attached Files/Pasted image 20250107150437.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 176238,
-      "exportedPath": "attached-files/pasted-image-20250107150437.png",
-      "dependencies": []
-    },
-    "Attached Files/Pasted image 20250107150631.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 146039,
-      "exportedPath": "attached-files/pasted-image-20250107150631.png",
-      "dependencies": []
-    },
-    "Attached Files/Pasted image 20250107151219.png": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 169205,
-      "exportedPath": "attached-files/pasted-image-20250107151219.png",
-      "dependencies": []
-    },
-    "Home.md": {
-      "modifiedTime": 1736785821120,
-      "sourceSize": 82,
-      "exportedPath": "home.html",
-      "dependencies": []
-    },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1736785821120,
+      "modifiedTime": 1736790066092,
       "sourceSize": 691,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
