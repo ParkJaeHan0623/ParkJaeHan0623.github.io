@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Home]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Home</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 10 Jan 2025 08:16:41 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 10 Jan 2025 08:16:40 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1. <a data-href="macOS" href="macos.html" class="internal-link" target="_self" rel="noopener nofollow">macOS</a> 초기 세팅]]></title><description><![CDATA[ 
+ <br><br><br>
+Finder(폴더창) 환경 설정을 열고 고급 탭에서 "모든 파일 확장자 보기"를 선택
+<br><img alt="스크린샷 2025-01-02 오전 3.27.39.png" src="lib/media/스크린샷-2025-01-02-오전-3.27.39.png"><br>
+<img alt="스크린샷 2025-01-02 오전 3.34.53 2.png" src="lib/media/스크린샷-2025-01-02-오전-3.34.53-2.png"><br><br>
+시작 위치를 사용자 홈 디렉토리로 설정
+<br><img alt="스크린샷 2025-01-02 오전 3.51.07.png" src="lib/media/스크린샷-2025-01-02-오전-3.51.07.png"><br>
+사이드 바에 홈 디렉토리 표시
+<br><img alt="스크린샷 2025-01-02 오전 3.34.53 오전 3.45.47.png" src="lib/media/스크린샷-2025-01-02-오전-3.34.53-오전-3.45.47.png"><br><br>
+각종 개발 환경의 기초가 되는 터미널 확장 도구
+<br><br>Cmd+Space를 누르고 터미널을 검색하여 터미널.app을 실행한다.<br><br>xcode-select --install
+<br><br>터미널에서는 아무런 결과도 표시되지 않고 팝업창을 통해 설치가 진행된다<br><br><br><br><a rel="noopener nofollow" class="external-link" href="https://git-scm.com/" target="_blank">https://git-scm.com/</a><br><br>xcode-select --install
+<br><br>
+명령 프롬포트 혹은 터미널에서 사용자 정보를 입력한다<br>
+특별한 문제가 없다면 명령어 입력 후 아무런 내용도 표시되지 않는다
+<br>git config --global user.name "parkjaehan"
+
+git config --global user.email "mitshowme@naver.com"
+<br><br><br>ssh-keygen -t ed25519 -C "mitshowme@naver.com"
+<br>
+명령어 입력후 진행되는 과정에서는 엔터키만 입력한다.<br>
+정상적으로 완료된다면 사용자 홈디렉토리 안에 .ssh라는 이름의 폴더가 생성되고 그 안에<br>
+id_ed25519, id_ed25519.pub 인 두 개의 파일이 생성된다.<br>
+이 폴더나 파일들이 삭제될 경우 인증서를 새로 생성해야 한다.
+<br><br>mac에서는 홈 디렉토리로 가더라도 .ssh 폴더가 보이지 않는다. (기본적으로 mac에서는 .이 붙으면 숨김폴더로 인식하기 때문)<br>
+=&gt; 터미널에서 직접 열어줘야 한다<br>open ~/.ssh
+<br><br>
+github에 로그인 한 후 화면 우측상단의 계정 아이콘을 클릭하여 settings 메뉴를 선택한다.<br>
+페이지 이동 후 왼쪽메뉴에서 SSH and GPG keys 메뉴 선택<br>
+화면 오른쪽의 New SSH Key 버튼을 클릭하여 페이지를 이동한다.<br>
+페이지 이동 후 내용 입력
+<br>
+<br>Title : 아무 내용이나 입력
+<br>Key type : 기본값 유지
+<br>Key : id_ed25519.pub 파일의 내용을 복사 후 붙여 넣는다.
+<br><br><br><br><br><br><br>WinKey + R &gt; cmd (엔터)<br><br>Cmd + Space &gt; 터미널 검색<br><br>node --version
+<br>
+결과값이 출력되지 않을 경우 <a rel="noopener nofollow" class="external-link" href="https://nodejs.org" target="_blank">https://nodejs.org</a> 에서 프로그램 내려받아 설치 필요함.
+대부분의 경우 LTS 버전 권장.
+Mac M1 버전의 경우 17.1 이상 버전 필요함.
+설치 완료 후 열어두었던 명령프롬프트나 터미널을 종료하고 재시작.
+앞서 수행한 버전 확인 명령어를 통해 설치 완료 확인
+<br><br>
+<a rel="noopener nofollow" class="external-link" href="https://jdk.java.net/archive/" target="_blank">https://jdk.java.net/archive/</a> 에서 다운 받을 수 있다<br>
+2024.08 기준 Spring3와 호환되는 버전은 17 이므로 버전 17.0.2 설치
+<br><br>javac -version
+<br><br><br>
+OpenJDK는 압축파일 형태로 배포된다. 내려받은 파일을 적절한 위치에 압축해제한다
+<br>C\jdk-17.0.2<br><br><br>
+macOS에서 패키지 관리를 위해 Homebrew를 설치한다.<br>
+Terminal에서 아래 명령어를 입력하여 Homebrew를 설치한다.
+<br>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+<br><br><img alt="스크린샷 2025-01-06 오후 7.13.13.png" src="lib/media/스크린샷-2025-01-06-오후-7.13.13.png"><br><br>brew --version
+Homebrew 4.4.15
+
+which brew
+/opt/homebrew/bin/brew
+<br><br>
+Terminal에서 다음 명령어를 실행하여 OpenJDK 17을 설치
+<br>brew install openjdk@17
+<br>이 명령어로 /opt/homebrew/opt/openjdk@17 경로에 JDK 17이 설치된다.<br><br><br>﻿<br>nano ~/.zshrc
+code ~/.zshrc
+<br><br>export JAVA_HOME="/opt/homebrew/opt/openjdk@17" 
+export PATH="$JAVA_HOME/bin:$PATH"
+<br>
+JAVA_HOME 경로는 JDK 17의 설치 경로로 설정되어야 한다
+<br><br>
+환경변수 설정을 저장한 후, 변경 사항을 적용
+<br>source ~/.zshrc
+<br><br>환경변수를 설정한 후, Java가 제대로 설치되었는지 확인한다<br>java --version
+<br>예시 출력:<br>
+openjdk 17.0.2 2021-09-14 OpenJDK Runtime Environment (build 17.0.2+8) OpenJDK 64-Bit Server VM (build 17.0.2+8, mixed mode)<br><br>
+macOS에서는 java_home 명령어를 사용하여 설치된 JDK의 경로를 확인할 수 있다.
+<br>/usr/libexec/java_home -V
+<br>이 명령어를 실행하면 설치된 모든 JDK 버전과 해당 경로가 출력된다<br><br><br><br>
+<a rel="noopener nofollow" class="external-link" href="https://gradle.org/releases/" target="_blank">https://gradle.org/releases/</a>  --&gt; binary-only
+다운로드 받은 파일의 압축을 적절한 위치에 해제한다.<br>
+C:\gradle
+Path 환경 변수에 gradle의 bin 폴더 경로를 추가한다.
+<br><br>brew install gradle
+<br><br>gradle -v
+<br><br><br>먼저 <a data-tooltip-position="top" aria-label="https://mvnrepository.com/" rel="noopener nofollow" class="external-link" href="https://mvnrepository.com/" target="_blank">mvnrepository</a>에서 필요한 라이브러리를 검색한다.<br>
+예시로 gson 라이브러리를 검색<br>
+<br>gson을 검색한 후, 검색 결과에서 com.google.code.gson » gson의 최신 버전(2.11.0) 세부 페이지로 이동
+<br><br>라이브러리 세부 페이지에서 Gradle (Short) 탭을 클릭하여, 해당 코드 스니펫을 복사한다<br>implementation 'com.google.code.gson:gson:2.11.0'
+<br>
+<br>이제 Lombok 라이브러리도 같은 방식으로 검색하여 최신 버전(1.18.34)의 코드를 복사한다
+<br>compileOnly 'org.projectlombok:lombok:1.18.34'
+annotationProcessor 'org.projectlombok:lombok:1.18.34'
+<br><br>/app/build.gradle 파일을 열고, dependencies { ... } 블록 안에 복사한 코드를 추가한다<br><br>아래는 최종적으로 수정된 build.gradle 파일의 예시<br>plugins {
+    // CLI 빌드를 위한 application 플러그인 적용
+    id 'application'
+}
+
+repositories {
+    // Maven Central을 사용하여 의존성 해결
+    mavenCentral()
+}
+
+dependencies {
+    // JUnit Jupiter를 사용한 테스트
+    testImplementation libs.junit.jupiter
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // 애플리케이션에서 사용할 의존성
+    implementation libs.guava
+
+    // Gson 라이브러리
+    implementation 'com.google.code.gson:gson:2.11.0'
+
+    // Lombok 라이브러리
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+}
+
+java {
+    toolchain {
+        // 다른 환경에서 작업할 수 있도록 특정 Java 도구 체인 설정
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+application {
+    // 애플리케이션의 main 클래스 정의
+    mainClass = 'kr.hossam.lombok_ex.App01'
+}
+<br><br><br><br><br><br>
+<a data-tooltip-position="top" aria-label="https://learn.microsoft.com/ko-kr/cpp/windows/latest-supported-vc-redist?view=msvc-170" rel="noopener nofollow" class="external-link" href="https://learn.microsoft.com/ko-kr/cpp/windows/latest-supported-vc-redist?view=msvc-170" target="_blank">지원되는 최신 Visual C++ 재배포 가능 패키지 다운로드 | Microsoft Learn</a><br>
+에서 통합 버전을 내려받아 설치한다
+<br><br>
+<a rel="noopener nofollow" class="external-link" href="https://dev.mysql.com/downloads/mysql/" target="_blank">https://dev.mysql.com/downloads/mysql/</a>
+<br>인스톨 버전의 경우 윈도우 시스템 상태에 따라 설치에 실패하는 경우가 많으므로 압축패키지를 통한 수동 설치를 권장한다. <br><br>
+<br>적절한 위치에 압축을 해제한다(폴더 경로에 한글 금지)
+<br>data라는 이름의 폴더 생성
+<br>빈 텍스트 파일을 생성한다<br>
+<img alt="Pasted image 20250107150631.png" src="lib/media/pasted-image-20250107150631.png">
+<br>텍스트 파일의 이름을 my.ini 로 변경하고 아래의 설정 항목을 입력한다
+<br>[mysqld] 
+basedir=MYSQL이_설치된_위치 
+datadir=MYSQL이_설치된_위치\data 
+port=3306
+<br><br>
+<br>1<br>
+<img alt="Pasted image 20250107150239.png" src="lib/media/pasted-image-20250107150239.png">
+<br>2<br>
+<img alt="Pasted image 20250107150341.png" src="lib/media/pasted-image-20250107150341.png">
+<br>3
+
+설정 완료 후 나머지 창들도 확인 버튼을 눌러 모두 닫는다<br>
+<img alt="Pasted image 20250107150437.png" src="lib/media/pasted-image-20250107150437.png">
+
+
+<br><br>
+명령 프롬프트를 관리자 권한으로 실행한 상태에서 MySQL을 윈도우 서비스로 등록하기 위한 명령어를 입력한다
+<br>mysqld--install
+<br>
+등록된 윈도우 서비스를 구동하기 위한 명령어를 입력한다
+<br>net start MySQL
+<br><br>
+MySQL 설치 디렉토리 내의 data 폴더 안에 컴퓨터이름.err 형식의 파일을메모장으로 확인한다<br>
+<img alt="Pasted image 20250107151219.png" src="lib/media/pasted-image-20250107151219.png">
+<br><br><br>brew install mysql
+<br><br>mysql.server start
+<br><br>mysql_secure_installation
+<br>
+<br>Would you like to setup VALIDATE PASSWORD plugin?&nbsp;: 비밀번호 가이드. 복잡한 비밀번호를 사용하도록 제한해주는 플러그인을 사용하려면&nbsp;yes,&nbsp;보안은 무시하고&nbsp;그냥 쓰던 비밀번호 제한받지 않고 쓰고 싶다면&nbsp;no.
+<br>Remove anonymous users?&nbsp;: 익명사용자 삭제할지/계속 사용할지 여부.&nbsp;no&nbsp;하면&nbsp;$ mysql -uroot가 아니라&nbsp;$ mysql만으로도 접속 가능.&nbsp;yes하면&nbsp;-u&nbsp;옵션 필수.
+<br>Disallow root login remotely?&nbsp;: localhost외에 다른 ip에서 root 아이디로 원격접속 가능하게 할지.&nbsp;yes하면 원겹접속 불가.
+<br>Remove test database and access to it?&nbsp;: mysql에 기본적으로 설정된 test 디비 삭제 여부.
+<br>Reload privilege tables now?&nbsp;: 하나라도 권한 변경을 했다면&nbsp;yes&nbsp;해서 하는 게 정신건강에 좋음
+<br><br>mysql -uroot -p
+<br>로그인하고,<br>status;
+<br> charset 확인.<br>
+<br>기본적으로 charset 4개가 모두 utf8이어서 그대로 두면 됨
+<br>혹시나 latin등 다른 값이 있다면 위의&nbsp;4. charset UTF-8로 바꾸기&nbsp;따라하기.&nbsp;my.cnf가 기본적으로 존재하지 않으므로&nbsp;$ vi /etc/my.cnf&nbsp;등을 통해 새로 생성.
+<br><br>brew services start mysql
+<br>
+<br>로그인시 데몬 자동 실행 (To have launchd start mysql at login):&nbsp;`
+<br>ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
+<br><br><br><br><a rel="noopener nofollow" class="external-link" href="https://dev.mysql.com/downloads/workbench/" target="_blank">https://dev.mysql.com/downloads/workbench/</a><br><br><img alt="스크린샷 2025-01-09 오전 10.05.19.png" src="lib/media/스크린샷-2025-01-09-오전-10.05.19.png"><br>
+<img alt="스크린샷 2025-01-09 오전 10.05.48.png" src="lib/media/스크린샷-2025-01-09-오전-10.05.48.png"><br>
+만약 Test Connection을 눌렀을 때 Failed가 뜬다면 아래의 명령어 입력
+<br>mysql.server status
+
+mysql.server start
+<br><br><br>]]></description><link>coding/개발-환경-구축.html</link><guid isPermaLink="false">Coding/개발 환경 구축.md</guid><pubDate>Fri, 10 Jan 2025 07:04:13 GMT</pubDate><enclosure url="lib/media/스크린샷-2025-01-02-오전-3.27.39.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/스크린샷-2025-01-02-오전-3.27.39.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[추가로 공부해야할것]]></title><description><![CDATA[ 
+ <br>
+<br>
+HTML + CSS
+
+<br>
+JavaScript - 기본 문법 + (jquery)
+
+<br>
+SQL - mySQL, MariaDB, Oracle
+
+<br>
+JAVA - 기본 문법 + API(자료구조 관련) + 비동기 처리(thread) 프로세스 차이
+
+<br>
+SpringBoot - MVC , AOP, 스케줄러, MyBatis, Service, Controller + JPA(DB 처리)+ DAO 패턴(개념정리 MyBatis랑 비슷) + Spring Security(로그인 구현, 암복호화) + Https 적용(선생님 블로그)
+
+<br>
+(React)
+
+<br>
+Linux - 기본 운영, 설치(세팅), Docker, AWS(호스팅), vi 에디터
+
+<br>
+Git - (Github Action)
+
+<br>
+Windows - 기본 명령어, 사용자, 권한
+
+]]></description><link>coding/추가로-공부해야할것.html</link><guid isPermaLink="false">Coding/추가로 공부해야할것.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. <a data-href="Microsoft Windows" href="microsoft-windows.html" class="internal-link" target="_self" rel="noopener nofollow">Microsoft Windows</a>]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>
+탐색기에서 파일을 선택한 상태에서...
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>]]></description><link>단축키(표).html</link><guid isPermaLink="false">단축키(표).md</guid><pubDate>Fri, 10 Jan 2025 02:12:52 GMT</pubDate></item><item><title><![CDATA[1. <a data-tooltip-position="top" aria-label="명령어 > ^051865" data-href="명령어#^051865" href="명령어.html#^051865" class="internal-link" target="_self" rel="noopener nofollow">명령어</a>]]></title><description><![CDATA[ 
+ <br>]]></description><link>리눅스(linux).html</link><guid isPermaLink="false">리눅스(Linux).md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. 개요]]></title><description><![CDATA[ 
+ <br><br>마크다운 (Markdown)은&nbsp;마크업 언어 의 일종으로, 존 그루버(John Gruber)와 아론 스워츠(Aaron Swartz)가 만들었다. 온갖 태그로 범벅된 HTML 문서 등과 달리, 읽기도 쓰기도 쉬운 문서 양식을 지향한다.<br>
+그루버는 마크다운으로 작성한 문서를&nbsp;HTML로 변환하는&nbsp;Perl 스크립트도 만들었다. 흔히 볼 수 있는 문서(파일명)은 'README.md', 파일의&nbsp;확장자는 .md 또는 .markdown을 쓴다.<br><br><br># 1단계 제목
+## 2단계 제목
+<br>또는 다음과 같이 쓸 수도 있다.  <br>1단계 제목
+=======
+2단계 제목
+------
+<br><br>줄 바꿈을 두 번 하면 된다.  <br>첫째 문단입니다. 문장이 두 개죠.
+
+둘째 문단입니다. 저도
+문장이 두 개입니다.
+<br>마크다운은 기본적으로&nbsp;강제 개행을 인식하지 않기 때문에, 두 번째 예시를 HTML 등으로 변환할 경우 줄 바꿈이 없는 '둘째 문단입니다. 저도 문장이 두 개입니다.'로 변환된다. 강제 개행을 인식하게 하려면 줄 끝에 공백을 두 칸 넣거나(가독성 문제로 권장되지 않음), 아니면 줄 끝에 역슬래시()를 넣어도 된다.  <br><br>첫 번째 칸을 띄어 쓰지 않아도 된다.  <br>* 목록 하나
+* 목록 두울
+* 목록 세엣
+- 이렇게 써도
+- 된답니다.
+<br>순서가 있는 목록은 다음과 같이 쓴다. 숫자는 반드시 맞춰 쓸 필요는 없다. 어차피 마크다운 기본 문법에서는 각 행이 HTML의&nbsp;&lt;li&gt;&nbsp;태그로 변환되는 것일 뿐이라 번호 정보가 사라지기 때문.  <br>1. 첫째입니다.
+2. 둘째입니다.
+3. 셋째입니다.
+5. 넷째입니다. 다섯째 아닙니다.
+6. 이게 다섯째입니다.
+4. 이건 여섯째.
+<br><br>굵은 글자는 다음과 같이 쓴다.  <br>**굵게** 쓰거나 __두껍게__ 쓰거나
+<br>  결과:&nbsp;굵게&nbsp;쓰거나&nbsp;두껍게&nbsp;쓰거나  <br>기울임 꼴 글자는 다음과 같이 쓴다.<br>*기울게* 쓰면서 _기울게_ 쓴다
+<br>  결과:&nbsp;기울게&nbsp;쓰면서&nbsp;기울게&nbsp;쓴다  <br><br>코드를 입력할 필요가 있을 땐 다음과 같이 쓴다.<br>문장 중간에 표시할 땐 다음과 같이 쓴다. <br>예를 들어 `import antigravity` 이렇게요.
+<br>여러 줄의 코드는 다음과 같이 줄 첫 부분을 공백 4칸 이상 띄어서 쓴다.<br>다음은 Clojure의 예시 코드다.
+clojure
+    #!/usr/bin/env clojure
+    (println "Hello, World!")
+<br><br>줄 첫 번째마다 &gt;를 쓰면 된다.<br>&gt;&gt; 빛이 있으라.
+&gt; 하니 빛이 있었다.
+<br>결과:<br>
+
+빛이 있으라.
+
+하니 빛이 있었다.
+<br><br>링크는 다음과 같이 쓴다. <br>[나무위키](https://namu.wiki/w/나무위키:대문)
+<br>또는 다음과 같이 써서 주석 형태로 링크를 쓸 수 있다.  <br>출처는 [위키백과][wiki]입니다.
+
+[wiki]: http://en.wikipedia.org/wiki/Markdown#Syntax_examples "위키백과 Markdown 항목"
+<br><br>그림을 넣을 땐 다음과 같이 쓴다.  <br>![세피로트](https://cdn.namu.wiki/r/http%3A%2F%2Fi.imgur.com%2F2megHz2.png "툴팁 메시지. 이 부분은 생략해도 됩니다.")
+<br>또는 다음과 같이 써서 주석 형태로 그림을 넣을 수 있다.  <br>![세피로트][SD]
+
+[SD]: https://cdn.namu.wiki/r/http%3A%2F%2Fi.imgur.com%2F2megHz2.png "툴팁 메시지. 이 부분은 생략해도 됩니다."
+<br>"세피로트" 부분은 HTML img 태그의 alt 속성에, "툴팁 메시지" 부분은 title 속성에 해당한다.  <br><br>가로줄을 넣는 문법은 여러 가지가 있다.<br>* * *
+***
+*****
+- - -
+------------
+]]></description><link>마크다운(markdown).html</link><guid isPermaLink="false">마크다운(MarkDown).md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. <a data-href="Microsoft Windows" href="microsoft-windows.html" class="internal-link" target="_self" rel="noopener nofollow">Microsoft Windows</a>]]></title><description><![CDATA[ 
+ <br><br><br>
+Winkey + R을 입력하여 실행창을 연 상태에서 cmd 입력 후 Enter
+<br><br><br><br><br>
+작업 폴더 위치에서 명령 프롬프트를 연다
+<br>git init
+
+git branch -M main
+
+git add -A
+
+git commit -m "간단한 코멘트"
+
+git remote add origin 저장소주소
+
+git push --force --set-upstream origin main
+<br><br>git clone 저장소주소
+<br><br>ex) repository가 /Users/사용자이름/Documents/git_myApp인 경우<br>cd Documents
+cd git_myApp
+<br>]]></description><link>명령어.html</link><guid isPermaLink="false">명령어.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[비즈니스 메일 작성법]]></title><description><![CDATA[ 
+ <br><a rel="noopener nofollow" class="external-link" href="https://m.blog.naver.com/wisetter/222505509949" target="_blank">https://m.blog.naver.com/wisetter/222505509949</a><br><a data-tooltip-position="top" aria-label="https://www.jobplanet.co.kr/contents/news-4352/%E2%80%98%EB%B3%B4%EB%82%B4%EA%B8%B0%E2%80%99%20%ED%81%B4%EB%A6%AD%20%EC%A0%84%20%ED%99%95%EC%9D%B8!%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EC%9D%B4%EB%A9%94%EC%9D%BC%20%EC%9E%91%EC%84%B1%EB%B2%95" rel="noopener nofollow" class="external-link" href="https://www.jobplanet.co.kr/contents/news-4352/%E2%80%98%EB%B3%B4%EB%82%B4%EA%B8%B0%E2%80%99%20%ED%81%B4%EB%A6%AD%20%EC%A0%84%20%ED%99%95%EC%9D%B8!%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EC%9D%B4%EB%A9%94%EC%9D%BC%20%EC%9E%91%EC%84%B1%EB%B2%95" target="_blank">https://www.jobplanet.co.kr/contents/news-4352/‘보내기’%20클릭%20전%20확인!%20비즈니스%20이메일%20작성법</a>]]></description><link>비즈니스-메일-작성법.html</link><guid isPermaLink="false">비즈니스 메일 작성법.md</guid><pubDate>Fri, 10 Jan 2025 03:31:12 GMT</pubDate></item><item><title><![CDATA[1. 개요]]></title><description><![CDATA[ 
+ <br><br><a data-href="마크다운(MarkDown)" href="마크다운(markdown).html" class="internal-link" target="_self" rel="noopener nofollow">마크다운(MarkDown)</a> 문법으로 작성할 수 있는&nbsp;크로스 플랫폼노트 앱.&nbsp;노션과 Roam 리서치를 비롯해&nbsp;제텔카스텐 시스템을 사용할 수 있다.<br><br><br><br>[[]] 사용
+<br><br>#을 사용하면 제목을 연결
+
+^을 사용하면 블록에 연결
+
+|을 사용하면 보이는 텍스트를 변경
+<br><br>]]></description><link>옵시디언(obsidian).html</link><guid isPermaLink="false">옵시디언(Obsidian).md</guid><pubDate>Wed, 08 Jan 2025 06:44:17 GMT</pubDate></item><item><title><![CDATA[1. <a data-href="단축키" href="단축키.html" class="internal-link" target="_self" rel="noopener nofollow">단축키</a>]]></title><description><![CDATA[ 
+ <br><br><br>]]></description><link>git.html</link><guid isPermaLink="false">Git.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[Gradle]]></title><description><![CDATA[ 
+ ]]></description><link>gradle.html</link><guid isPermaLink="false">Gradle.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[JavaScript]]></title><description><![CDATA[ 
+ ]]></description><link>javascript.html</link><guid isPermaLink="false">JavaScript.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. <a data-tooltip-position="top" aria-label="단축키 > ^cd76a8" data-href="단축키#^cd76a8" href="단축키.html#^cd76a8" class="internal-link" target="_self" rel="noopener nofollow">단축키</a>]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br>
+<br>파일 경로 확인법 - Finder에서 파일 우클릭 후 정보 가져오기 클릭. 파일명까지 가져오지 않으므로 주의
+<br>해당 폴더 경로에서 터미널 여는 법 - Finder에서 폴더 우클릭 후 서비스 &gt; 폴더에서 새로운 터미널 열기 클릭
+]]></description><link>macos.html</link><guid isPermaLink="false">macOS.md</guid><pubDate>Wed, 08 Jan 2025 04:13:09 GMT</pubDate></item><item><title><![CDATA[Maven]]></title><description><![CDATA[ 
+ ]]></description><link>maven.html</link><guid isPermaLink="false">Maven.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. <a data-tooltip-position="top" aria-label="단축키 > ^76a76e" data-href="단축키#^76a76e" href="단축키.html#^76a76e" class="internal-link" target="_self" rel="noopener nofollow">단축키</a>]]></title><description><![CDATA[ 
+ <br><br><br>]]></description><link>microsoft-windows.html</link><guid isPermaLink="false">Microsoft Windows.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[데이터베이스 백업/복구]]></title><description><![CDATA[ 
+ <br><br><br>mysqldump -u계정아이디 -p백업할DB이름 &gt; 백업파일경로<br>
+예시
+<br>mysqldump -u root -p sony &gt; /Users/parkjaehan/Coding/SonyStore/sony_database/sony_database.sql
+<br><br>mysql -u계정아이디 -p복구할DB이름 &lt; 백업파일경로<br>
+예시
+<br>mysql -u root -p sony &lt; /Users/parkjaehan/Coding/SonyStore/sony_database/sony_database.sql
+<br>이 명령어는 MySQL 접속 상태가 아닌일반 명령프롬프트 상태에서 실행해야 한다.]]></description><link>mysql.html</link><guid isPermaLink="false">MySQL.md</guid><pubDate>Wed, 08 Jan 2025 04:09:05 GMT</pubDate></item><item><title><![CDATA[1. 개요]]></title><description><![CDATA[ 
+ <br>]]></description><link>node.js.html</link><guid isPermaLink="false">Node.js.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[Spring Boot]]></title><description><![CDATA[ 
+ ]]></description><link>spring-boot.html</link><guid isPermaLink="false">Spring Boot.md</guid><pubDate>Fri, 10 Jan 2025 03:24:44 GMT</pubDate></item><item><title><![CDATA[1. 확장(extension)]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br>]]></description><link>vscode.html</link><guid isPermaLink="false">VSCode.md</guid><pubDate>Fri, 10 Jan 2025 07:03:23 GMT</pubDate></item></channel></rss>
