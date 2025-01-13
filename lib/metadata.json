@@ -1,6 +1,6 @@
 {
   "vaultName": "Home",
-  "lastExport": 1736790066092,
+  "lastExport": 1736796439486,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -12,9 +12,7 @@
     "Coding/리눅스(Linux).md",
     "Coding/마크다운(MarkDown).md",
     "Coding/명령어.md",
-    "Coding/비즈니스 메일 작성법.md",
     "Coding/옵시디언(Obsidian).md",
-    "Coding/추가로 공부해야할것.md",
     "Coding/CSS.md",
     "Coding/Git.md",
     "Coding/Gradle.md",
@@ -28,6 +26,8 @@
     "Coding/Node.js.md",
     "Coding/Spring Boot.md",
     "Coding/VSCode.md",
+    "Etc/비즈니스 메일 작성법.md",
+    "Etc/추가로 공부해야할것.md",
     "Index.md",
     "lib/media/스크린샷-2025-01-02-오전-3.27.39.png",
     "lib/media/스크린샷-2025-01-02-오전-3.34.53-2.png",
@@ -103,9 +103,189 @@
     "lib/styles/snippets.css"
   ],
   "fileInfo": {
+    "Index.md": {
+      "modifiedTime": 1736791337735,
+      "sourceSize": 86,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 9125,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 1539,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 131021,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/snippets.css": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 691,
+      "exportedPath": "lib/styles/snippets.css",
+      "dependencies": []
+    },
     "Coding/개발 환경 구축.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 12144,
+      "modifiedTime": 1736796439486,
+      "sourceSize": 12166,
       "exportedPath": "coding/개발-환경-구축.html",
       "dependencies": [
         "lib/media/스크린샷-2025-01-02-오전-3.27.39.png",
@@ -123,381 +303,201 @@
       ]
     },
     "Coding/단축키.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 21925,
+      "modifiedTime": 1736796439486,
+      "sourceSize": 21937,
       "exportedPath": "coding/단축키.html",
       "dependencies": []
     },
     "Coding/단축키(표).md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 6369,
+      "modifiedTime": 1736796439486,
+      "sourceSize": 6386,
       "exportedPath": "coding/단축키(표).html",
       "dependencies": []
     },
     "Coding/리눅스(Linux).md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 36,
       "exportedPath": "coding/리눅스(linux).html",
       "dependencies": []
     },
     "Coding/마크다운(MarkDown).md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 3844,
       "exportedPath": "coding/마크다운(markdown).html",
       "dependencies": []
     },
     "Coding/명령어.md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 5015,
       "exportedPath": "coding/명령어.html",
       "dependencies": []
     },
-    "Coding/비즈니스 메일 작성법.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 174,
-      "exportedPath": "coding/비즈니스-메일-작성법.html",
-      "dependencies": []
-    },
     "Coding/옵시디언(Obsidian).md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 908,
       "exportedPath": "coding/옵시디언(obsidian).html",
       "dependencies": []
     },
-    "Coding/추가로 공부해야할것.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 565,
-      "exportedPath": "coding/추가로-공부해야할것.html",
-      "dependencies": []
-    },
     "Coding/CSS.md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 0,
       "exportedPath": "coding/css.html",
       "dependencies": []
     },
     "Coding/Git.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 87,
+      "modifiedTime": 1736796439486,
+      "sourceSize": 93,
       "exportedPath": "coding/git.html",
       "dependencies": []
     },
     "Coding/Gradle.md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 0,
       "exportedPath": "coding/gradle.html",
       "dependencies": []
     },
     "Coding/HTML.md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 0,
       "exportedPath": "coding/html.html",
       "dependencies": []
     },
     "Coding/JAVA.md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 0,
       "exportedPath": "coding/java.html",
       "dependencies": []
     },
     "Coding/JavaScript.md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 0,
       "exportedPath": "coding/javascript.html",
       "dependencies": []
     },
     "Coding/macOS.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 540,
+      "modifiedTime": 1736796439486,
+      "sourceSize": 547,
       "exportedPath": "coding/macos.html",
       "dependencies": []
     },
     "Coding/Maven.md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 0,
       "exportedPath": "coding/maven.html",
       "dependencies": []
     },
     "Coding/Microsoft Windows.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 87,
+      "modifiedTime": 1736796439486,
+      "sourceSize": 107,
       "exportedPath": "coding/microsoft-windows.html",
       "dependencies": []
     },
     "Coding/MySQL.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 539,
+      "modifiedTime": 1736796439486,
+      "sourceSize": 547,
       "exportedPath": "coding/mysql.html",
       "dependencies": []
     },
     "Coding/Node.js.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 12,
+      "modifiedTime": 1736796439486,
+      "sourceSize": 22,
       "exportedPath": "coding/node.js.html",
       "dependencies": []
     },
     "Coding/Spring Boot.md": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 0,
       "exportedPath": "coding/spring-boot.html",
       "dependencies": []
     },
     "Coding/VSCode.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 4015,
+      "modifiedTime": 1736796439486,
+      "sourceSize": 4024,
       "exportedPath": "coding/vscode.html",
       "dependencies": []
     },
-    "Index.md": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 325,
-      "exportedPath": "index.html",
+    "Etc/비즈니스 메일 작성법.md": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 174,
+      "exportedPath": "etc/비즈니스-메일-작성법.html",
+      "dependencies": []
+    },
+    "Etc/추가로 공부해야할것.md": {
+      "modifiedTime": 1736796439486,
+      "sourceSize": 565,
+      "exportedPath": "etc/추가로-공부해야할것.html",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-02-오전-3.27.39.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 46356,
       "exportedPath": "lib/media/스크린샷-2025-01-02-오전-3.27.39.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-02-오전-3.34.53-2.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 23754,
       "exportedPath": "lib/media/스크린샷-2025-01-02-오전-3.34.53-2.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-02-오전-3.51.07.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 23243,
       "exportedPath": "lib/media/스크린샷-2025-01-02-오전-3.51.07.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-02-오전-3.34.53-오전-3.45.47.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 23754,
       "exportedPath": "lib/media/스크린샷-2025-01-02-오전-3.34.53-오전-3.45.47.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-06-오후-7.13.13.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 35120,
       "exportedPath": "lib/media/스크린샷-2025-01-06-오후-7.13.13.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250107150631.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 146039,
       "exportedPath": "lib/media/pasted-image-20250107150631.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250107150239.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 137405,
       "exportedPath": "lib/media/pasted-image-20250107150239.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250107150341.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 149837,
       "exportedPath": "lib/media/pasted-image-20250107150341.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250107150437.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 176238,
       "exportedPath": "lib/media/pasted-image-20250107150437.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250107151219.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 169205,
       "exportedPath": "lib/media/pasted-image-20250107151219.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-09-오전-10.05.19.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 14521,
       "exportedPath": "lib/media/스크린샷-2025-01-09-오전-10.05.19.png",
       "dependencies": []
     },
     "lib/media/스크린샷-2025-01-09-오전-10.05.48.png": {
-      "modifiedTime": 1736790066092,
+      "modifiedTime": 1736796439486,
       "sourceSize": 135373,
       "exportedPath": "lib/media/스크린샷-2025-01-09-오전-10.05.48.png",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 23377,
-      "exportedPath": "lib/scripts/graph-wasm.wasm",
-      "dependencies": []
-    },
-    "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 66800,
-      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
-      "dependencies": []
-    },
-    "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 104232,
-      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 104332,
-      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 98868,
-      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 106876,
-      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 105804,
-      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 106108,
-      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 111708,
-      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 192740,
-      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 161376,
-      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 191568,
-      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 155288,
-      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 7876,
-      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 317,
-      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "lib/html/file-tree.html": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 8500,
-      "exportedPath": "lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "lib/scripts/webpage.js": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 47290,
-      "exportedPath": "lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-view.js": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 15519,
-      "exportedPath": "lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 14021,
-      "exportedPath": "lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 5179,
-      "exportedPath": "lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 29832,
-      "exportedPath": "lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "lib/scripts/pixi.js": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 449509,
-      "exportedPath": "lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "lib/scripts/minisearch.js": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 29422,
-      "exportedPath": "lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "lib/media/favicon.png": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 1105,
-      "exportedPath": "lib/media/favicon.png",
-      "dependencies": []
-    },
-    "lib/scripts/graph-data.js": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 1551,
-      "exportedPath": "lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "lib/styles/obsidian.css": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 131021,
-      "exportedPath": "lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 236,
-      "exportedPath": "lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/main-styles.css": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 23130,
-      "exportedPath": "lib/styles/main-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/snippets.css": {
-      "modifiedTime": 1736790066092,
-      "sourceSize": 691,
-      "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
     }
   }

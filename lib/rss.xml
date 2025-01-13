@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Home]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Home</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 13 Jan 2025 17:41:06 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 13 Jan 2025 17:41:06 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1. <a data-href="macOS" href="coding/macos.html" class="internal-link" target="_self" rel="noopener nofollow">macOS</a> 초기 세팅]]></title><description><![CDATA[ 
- <br><br><br>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Home]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Home</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 13 Jan 2025 19:27:20 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 13 Jan 2025 19:27:19 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[개발 환경 구축]]></title><description><![CDATA[ 
+ <br><br><br><br>
 Finder(폴더창) 환경 설정을 열고 고급 탭에서 "모든 파일 확장자 보기"를 선택
 <br><img alt="스크린샷 2025-01-02 오전 3.27.39.png" src="lib/media/스크린샷-2025-01-02-오전-3.27.39.png"><br>
 <img alt="스크린샷 2025-01-02 오전 3.34.53 2.png" src="lib/media/스크린샷-2025-01-02-오전-3.34.53-2.png"><br><br>
@@ -183,8 +183,8 @@ MySQL 설치 디렉토리 내의 data 폴더 안에 컴퓨터이름.err 형식�
 <br>mysql.server status
 
 mysql.server start
-<br><br><br>]]></description><link>coding/개발-환경-구축.html</link><guid isPermaLink="false">Coding/개발 환경 구축.md</guid><pubDate>Fri, 10 Jan 2025 07:04:13 GMT</pubDate><enclosure url="lib/media/스크린샷-2025-01-02-오전-3.27.39.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/스크린샷-2025-01-02-오전-3.27.39.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1. <a data-href="Microsoft Windows" href="coding/microsoft-windows.html" class="internal-link" target="_self" rel="noopener nofollow">Microsoft Windows</a>]]></title><description><![CDATA[<a class="tag" href="?query=tag:이름변경" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#이름변경</a> 
- <br><br><br>
+<br><br><br>]]></description><link>coding/개발-환경-구축.html</link><guid isPermaLink="false">Coding/개발 환경 구축.md</guid><pubDate>Mon, 13 Jan 2025 19:23:46 GMT</pubDate><enclosure url="lib/media/스크린샷-2025-01-02-오전-3.27.39.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/스크린샷-2025-01-02-오전-3.27.39.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[단축키]]></title><description><![CDATA[<a class="tag" href="?query=tag:이름변경" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#이름변경</a> 
+ <br><br><br><br>
 <br>A:  페이지의 전체나 글의 전체를 선택<br>
 
 <br>B: 워드의 경우 볼드체(글씨 굵게)
@@ -867,10 +867,10 @@ Ctrl+F4: 현재 가상 데스크톱을 닫는다.<br>
 <br>command + N : 새 템플릿 생성
 <br>command + P : 그래프 필터 적용
 <br>
-]]></description><link>coding/단축키.html</link><guid isPermaLink="false">Coding/단축키.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. <a data-href="Microsoft Windows" href="coding/microsoft-windows.html" class="internal-link" target="_self" rel="noopener nofollow">Microsoft Windows</a>]]></title><description><![CDATA[ 
- <br><br><br><br><br><br>
+]]></description><link>coding/단축키.html</link><guid isPermaLink="false">Coding/단축키.md</guid><pubDate>Mon, 13 Jan 2025 19:25:56 GMT</pubDate></item><item><title><![CDATA[단축키(표)]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br>
 탐색기에서 파일을 선택한 상태에서...
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>]]></description><link>coding/단축키(표).html</link><guid isPermaLink="false">Coding/단축키(표).md</guid><pubDate>Fri, 10 Jan 2025 02:12:52 GMT</pubDate></item><item><title><![CDATA[1. <a data-tooltip-position="top" aria-label="명령어 > ^051865" data-href="명령어#^051865" href="coding/명령어.html#^051865" class="internal-link" target="_self" rel="noopener nofollow">명령어</a>]]></title><description><![CDATA[ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>]]></description><link>coding/단축키(표).html</link><guid isPermaLink="false">Coding/단축키(표).md</guid><pubDate>Mon, 13 Jan 2025 19:26:08 GMT</pubDate></item><item><title><![CDATA[1. <a data-tooltip-position="top" aria-label="명령어 > ^051865" data-href="명령어#^051865" href="coding/명령어.html#^051865" class="internal-link" target="_self" rel="noopener nofollow">명령어</a>]]></title><description><![CDATA[ 
  <br>]]></description><link>coding/리눅스(linux).html</link><guid isPermaLink="false">Coding/리눅스(Linux).md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. 개요]]></title><description><![CDATA[ 
  <br><br>마크다운 (Markdown)은&nbsp;마크업 언어 의 일종으로, 존 그루버(John Gruber)와 아론 스워츠(Aaron Swartz)가 만들었다. 온갖 태그로 범벅된 HTML 문서 등과 달리, 읽기도 쓰기도 쉬운 문서 양식을 지향한다.<br>
 그루버는 마크다운으로 작성한 문서를&nbsp;HTML로 변환하는&nbsp;Perl 스크립트도 만들었다. 흔히 볼 수 있는 문서(파일명)은 'README.md', 파일의&nbsp;확장자는 .md 또는 .markdown을 쓴다.<br><br><br># 1단계 제목
@@ -940,15 +940,34 @@ git push --force --set-upstream origin main
 <br><br>git clone 저장소주소
 <br><br>ex) repository가 /Users/사용자이름/Documents/git_myApp인 경우<br>cd Documents
 cd git_myApp
-<br>]]></description><link>coding/명령어.html</link><guid isPermaLink="false">Coding/명령어.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[비즈니스 메일 작성법]]></title><description><![CDATA[ 
- <br><a rel="noopener nofollow" class="external-link" href="https://m.blog.naver.com/wisetter/222505509949" target="_blank">https://m.blog.naver.com/wisetter/222505509949</a><br><a data-tooltip-position="top" aria-label="https://www.jobplanet.co.kr/contents/news-4352/%E2%80%98%EB%B3%B4%EB%82%B4%EA%B8%B0%E2%80%99%20%ED%81%B4%EB%A6%AD%20%EC%A0%84%20%ED%99%95%EC%9D%B8!%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EC%9D%B4%EB%A9%94%EC%9D%BC%20%EC%9E%91%EC%84%B1%EB%B2%95" rel="noopener nofollow" class="external-link" href="https://www.jobplanet.co.kr/contents/news-4352/%E2%80%98%EB%B3%B4%EB%82%B4%EA%B8%B0%E2%80%99%20%ED%81%B4%EB%A6%AD%20%EC%A0%84%20%ED%99%95%EC%9D%B8!%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EC%9D%B4%EB%A9%94%EC%9D%BC%20%EC%9E%91%EC%84%B1%EB%B2%95" target="_blank">https://www.jobplanet.co.kr/contents/news-4352/‘보내기’%20클릭%20전%20확인!%20비즈니스%20이메일%20작성법</a>]]></description><link>coding/비즈니스-메일-작성법.html</link><guid isPermaLink="false">Coding/비즈니스 메일 작성법.md</guid><pubDate>Fri, 10 Jan 2025 03:31:12 GMT</pubDate></item><item><title><![CDATA[1. 개요]]></title><description><![CDATA[ 
+<br>]]></description><link>coding/명령어.html</link><guid isPermaLink="false">Coding/명령어.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. 개요]]></title><description><![CDATA[ 
  <br><br><a data-href="마크다운(MarkDown)" href="coding/마크다운(markdown).html" class="internal-link" target="_self" rel="noopener nofollow">마크다운(MarkDown)</a> 문법으로 작성할 수 있는&nbsp;크로스 플랫폼노트 앱.&nbsp;노션과 Roam 리서치를 비롯해&nbsp;제텔카스텐 시스템을 사용할 수 있다.<br><br><br><br>[[]] 사용
 <br><br>#을 사용하면 제목을 연결
 
 ^을 사용하면 블록에 연결
 
 |을 사용하면 보이는 텍스트를 변경
-<br><br>]]></description><link>coding/옵시디언(obsidian).html</link><guid isPermaLink="false">Coding/옵시디언(Obsidian).md</guid><pubDate>Wed, 08 Jan 2025 06:44:17 GMT</pubDate></item><item><title><![CDATA[추가로 공부해야할것]]></title><description><![CDATA[ 
+<br><br>]]></description><link>coding/옵시디언(obsidian).html</link><guid isPermaLink="false">Coding/옵시디언(Obsidian).md</guid><pubDate>Wed, 08 Jan 2025 06:44:17 GMT</pubDate></item><item><title><![CDATA[Git]]></title><description><![CDATA[ 
+ <br><br><br><br>]]></description><link>coding/git.html</link><guid isPermaLink="false">Coding/Git.md</guid><pubDate>Mon, 13 Jan 2025 19:25:29 GMT</pubDate></item><item><title><![CDATA[Gradle]]></title><description><![CDATA[ 
+ ]]></description><link>coding/gradle.html</link><guid isPermaLink="false">Coding/Gradle.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[JavaScript]]></title><description><![CDATA[ 
+ ]]></description><link>coding/javascript.html</link><guid isPermaLink="false">Coding/JavaScript.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[macOS]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br>
+<br>파일 경로 확인법 - Finder에서 파일 우클릭 후 정보 가져오기 클릭. 파일명까지 가져오지 않으므로 주의
+<br>해당 폴더 경로에서 터미널 여는 법 - Finder에서 폴더 우클릭 후 서비스 &gt; 폴더에서 새로운 터미널 열기 클릭
+]]></description><link>coding/macos.html</link><guid isPermaLink="false">Coding/macOS.md</guid><pubDate>Mon, 13 Jan 2025 19:21:30 GMT</pubDate></item><item><title><![CDATA[Maven]]></title><description><![CDATA[ 
+ ]]></description><link>coding/maven.html</link><guid isPermaLink="false">Coding/Maven.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[Microsoft Windows]]></title><description><![CDATA[ 
+ <br><br><br><br>]]></description><link>coding/microsoft-windows.html</link><guid isPermaLink="false">Coding/Microsoft Windows.md</guid><pubDate>Mon, 13 Jan 2025 19:25:08 GMT</pubDate></item><item><title><![CDATA[MySQL]]></title><description><![CDATA[ 
+ <br><br><br><br>mysqldump -u계정아이디 -p백업할DB이름 &gt; 백업파일경로<br>
+예시
+<br>mysqldump -u root -p sony &gt; /Users/parkjaehan/Coding/SonyStore/sony_database/sony_database.sql
+<br><br>mysql -u계정아이디 -p복구할DB이름 &lt; 백업파일경로<br>
+예시
+<br>mysql -u root -p sony &lt; /Users/parkjaehan/Coding/SonyStore/sony_database/sony_database.sql
+<br>이 명령어는 MySQL 접속 상태가 아닌일반 명령프롬프트 상태에서 실행해야 한다.]]></description><link>coding/mysql.html</link><guid isPermaLink="false">Coding/MySQL.md</guid><pubDate>Mon, 13 Jan 2025 19:24:42 GMT</pubDate></item><item><title><![CDATA[Node.js]]></title><description><![CDATA[ 
+ <br><br>]]></description><link>coding/node.js.html</link><guid isPermaLink="false">Coding/Node.js.md</guid><pubDate>Mon, 13 Jan 2025 19:26:33 GMT</pubDate></item><item><title><![CDATA[Spring Boot]]></title><description><![CDATA[ 
+ ]]></description><link>coding/spring-boot.html</link><guid isPermaLink="false">Coding/Spring Boot.md</guid><pubDate>Fri, 10 Jan 2025 03:24:44 GMT</pubDate></item><item><title><![CDATA[VSCode]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br>]]></description><link>coding/vscode.html</link><guid isPermaLink="false">Coding/VSCode.md</guid><pubDate>Mon, 13 Jan 2025 19:26:45 GMT</pubDate></item><item><title><![CDATA[비즈니스 메일 작성법]]></title><description><![CDATA[ 
+ <br><a rel="noopener nofollow" class="external-link" href="https://m.blog.naver.com/wisetter/222505509949" target="_blank">https://m.blog.naver.com/wisetter/222505509949</a><br><a data-tooltip-position="top" aria-label="https://www.jobplanet.co.kr/contents/news-4352/%E2%80%98%EB%B3%B4%EB%82%B4%EA%B8%B0%E2%80%99%20%ED%81%B4%EB%A6%AD%20%EC%A0%84%20%ED%99%95%EC%9D%B8!%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EC%9D%B4%EB%A9%94%EC%9D%BC%20%EC%9E%91%EC%84%B1%EB%B2%95" rel="noopener nofollow" class="external-link" href="https://www.jobplanet.co.kr/contents/news-4352/%E2%80%98%EB%B3%B4%EB%82%B4%EA%B8%B0%E2%80%99%20%ED%81%B4%EB%A6%AD%20%EC%A0%84%20%ED%99%95%EC%9D%B8!%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EC%9D%B4%EB%A9%94%EC%9D%BC%20%EC%9E%91%EC%84%B1%EB%B2%95" target="_blank">https://www.jobplanet.co.kr/contents/news-4352/‘보내기’%20클릭%20전%20확인!%20비즈니스%20이메일%20작성법</a>]]></description><link>etc/비즈니스-메일-작성법.html</link><guid isPermaLink="false">Etc/비즈니스 메일 작성법.md</guid><pubDate>Fri, 10 Jan 2025 03:31:12 GMT</pubDate></item><item><title><![CDATA[추가로 공부해야할것]]></title><description><![CDATA[ 
  <br>
 <br>
 HTML + CSS
@@ -977,28 +996,5 @@ Git - (Github Action)
 <br>
 Windows - 기본 명령어, 사용자, 권한
 
-]]></description><link>coding/추가로-공부해야할것.html</link><guid isPermaLink="false">Coding/추가로 공부해야할것.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. <a data-href="단축키" href="coding/단축키.html" class="internal-link" target="_self" rel="noopener nofollow">단축키</a>]]></title><description><![CDATA[ 
- <br><br><br>]]></description><link>coding/git.html</link><guid isPermaLink="false">Coding/Git.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[Gradle]]></title><description><![CDATA[ 
- ]]></description><link>coding/gradle.html</link><guid isPermaLink="false">Coding/Gradle.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[JavaScript]]></title><description><![CDATA[ 
- ]]></description><link>coding/javascript.html</link><guid isPermaLink="false">Coding/JavaScript.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. <a data-tooltip-position="top" aria-label="단축키 > ^cd76a8" data-href="단축키#^cd76a8" href="coding/단축키.html#^cd76a8" class="internal-link" target="_self" rel="noopener nofollow">단축키</a>]]></title><description><![CDATA[ 
- <br><br><br><br><br><br><br>
-<br>파일 경로 확인법 - Finder에서 파일 우클릭 후 정보 가져오기 클릭. 파일명까지 가져오지 않으므로 주의
-<br>해당 폴더 경로에서 터미널 여는 법 - Finder에서 폴더 우클릭 후 서비스 &gt; 폴더에서 새로운 터미널 열기 클릭
-]]></description><link>coding/macos.html</link><guid isPermaLink="false">Coding/macOS.md</guid><pubDate>Wed, 08 Jan 2025 04:13:09 GMT</pubDate></item><item><title><![CDATA[Maven]]></title><description><![CDATA[ 
- ]]></description><link>coding/maven.html</link><guid isPermaLink="false">Coding/Maven.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[1. <a data-tooltip-position="top" aria-label="단축키 > ^76a76e" data-href="단축키#^76a76e" href="coding/단축키.html#^76a76e" class="internal-link" target="_self" rel="noopener nofollow">단축키</a>]]></title><description><![CDATA[ 
- <br><br><br>]]></description><link>coding/microsoft-windows.html</link><guid isPermaLink="false">Coding/Microsoft Windows.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[데이터베이스 백업/복구]]></title><description><![CDATA[ 
- <br><br><br>mysqldump -u계정아이디 -p백업할DB이름 &gt; 백업파일경로<br>
-예시
-<br>mysqldump -u root -p sony &gt; /Users/parkjaehan/Coding/SonyStore/sony_database/sony_database.sql
-<br><br>mysql -u계정아이디 -p복구할DB이름 &lt; 백업파일경로<br>
-예시
-<br>mysql -u root -p sony &lt; /Users/parkjaehan/Coding/SonyStore/sony_database/sony_database.sql
-<br>이 명령어는 MySQL 접속 상태가 아닌일반 명령프롬프트 상태에서 실행해야 한다.]]></description><link>coding/mysql.html</link><guid isPermaLink="false">Coding/MySQL.md</guid><pubDate>Wed, 08 Jan 2025 04:09:05 GMT</pubDate></item><item><title><![CDATA[Spring Boot]]></title><description><![CDATA[ 
- ]]></description><link>coding/spring-boot.html</link><guid isPermaLink="false">Coding/Spring Boot.md</guid><pubDate>Fri, 10 Jan 2025 03:24:44 GMT</pubDate></item><item><title><![CDATA[1. 확장(extension)]]></title><description><![CDATA[ 
- <br><br><br><br><br><br><br><br><br><br><br><br><br>]]></description><link>coding/vscode.html</link><guid isPermaLink="false">Coding/VSCode.md</guid><pubDate>Fri, 10 Jan 2025 07:03:23 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br><br>🖥 <a data-href="개발 환경 구축" href="coding/개발-환경-구축.html" class="internal-link" target="_self" rel="noopener nofollow">개발 환경 구축</a><br><br><br>
-<br>최근 수정한 노트<br>
-<br><br><br><br><br>
-<br>최근 작성한 노트<br>
-<br><br><br><br><br>
-]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 13 Jan 2025 17:39:17 GMT</pubDate></item></channel></rss>
+]]></description><link>etc/추가로-공부해야할것.html</link><guid isPermaLink="false">Etc/추가로 공부해야할것.md</guid><pubDate>Wed, 08 Jan 2025 00:51:02 GMT</pubDate></item><item><title><![CDATA[📌 Favorites]]></title><description><![CDATA[ 
+ <br><br><br><br><br>]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Mon, 13 Jan 2025 17:58:33 GMT</pubDate></item></channel></rss>
