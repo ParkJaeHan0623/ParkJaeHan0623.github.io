@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Home]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Home</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 10 Jan 2025 08:16:41 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 10 Jan 2025 08:16:40 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1. <a data-href="macOS" href="macos.html" class="internal-link" target="_self" rel="noopener nofollow">macOS</a> 초기 세팅]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Home]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Home</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 13 Jan 2025 16:30:21 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 13 Jan 2025 16:30:21 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Home]]></title><description><![CDATA[ 
+ <br><br><br>
+<br><a data-href="개발 환경 구축" href="coding/개발-환경-구축.html" class="internal-link" target="_self" rel="noopener nofollow">개발 환경 구축</a>
+<br><a data-href="현재 진행중인 프로젝트" href="현재 진행중인 프로젝트" class="internal-link" target="_self" rel="noopener nofollow">현재 진행중인 프로젝트</a>
+]]></description><link>home.html</link><guid isPermaLink="false">Home.md</guid><pubDate>Mon, 13 Jan 2025 16:29:26 GMT</pubDate></item><item><title><![CDATA[1. <a data-href="macOS" href="macos.html" class="internal-link" target="_self" rel="noopener nofollow">macOS</a> 초기 세팅]]></title><description><![CDATA[ 
  <br><br><br>
 Finder(폴더창) 환경 설정을 열고 고급 탭에서 "모든 파일 확장자 보기"를 선택
 <br><img alt="스크린샷 2025-01-02 오전 3.27.39.png" src="lib/media/스크린샷-2025-01-02-오전-3.27.39.png"><br>
@@ -183,7 +187,7 @@ MySQL 설치 디렉토리 내의 data 폴더 안에 컴퓨터이름.err 형식�
 <br>mysql.server status
 
 mysql.server start
-<br><br><br>]]></description><link>coding/개발-환경-구축.html</link><guid isPermaLink="false">Coding/개발 환경 구축.md</guid><pubDate>Fri, 10 Jan 2025 07:04:13 GMT</pubDate><enclosure url="lib/media/스크린샷-2025-01-02-오전-3.27.39.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/스크린샷-2025-01-02-오전-3.27.39.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[추가로 공부해야할것]]></title><description><![CDATA[ 
+<br><br><br>]]></description><link>coding/개발-환경-구축.html</link><guid isPermaLink="false">Coding/개발 환경 구축.md</guid><pubDate>Fri, 10 Jan 2025 07:04:13 GMT</pubDate><enclosure url="lib/media/스크린샷-2025-01-02-오전-3.27.39.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/스크린샷-2025-01-02-오전-3.27.39.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[추가로 공부해야할것]]></title><description><![CDATA[ 
  <br>
 <br>
 HTML + CSS
